@@ -1,0 +1,50 @@
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  text-align: center;
+  border: 1px solid #635f54;
+  border-radius: 4px;
+  padding: 30px;
+}
+.values {
+  display: flex;
+}
+.values > * {
+  margin: 0 20px;
+}
+.values .num {
+  font-size: 30px;
+}
+.buttons {
+  margin-top: 20px;
+}
+.buttons button {
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 4px;
+  outline: none !important;
+  cursor: pointer;
+}
+.buttons .start {
+  color: #fff;
+  background-color: #0d6efd;
+}
+.buttons .stop {
+  color: #000;
+  background-color: #ffc107;
+}
+
+.buttons .reset {
+  color: #fff;
+  background-color: #dc3545;
+}
