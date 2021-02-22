@@ -40,6 +40,9 @@ function reset() {
   clearInterval(timer);
   sec.innerHTML = '00';
   min.innerHTML = '00';
+  secondValue = 0;
+  minValue = 0;
+  secValue = 0;
 }
 
 function getTime(secValue) {
